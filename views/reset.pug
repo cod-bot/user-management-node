@@ -1,0 +1,9 @@
+extends layout
+
+block content
+     form(method="POST" class="card")
+            label(for="password") Password
+            input(type="password" name="password")
+            label(for="password-confirm") Confirm Password
+            input(type="password" name="password-confirm")
+            input(type="submit" value="reset" class="button")
