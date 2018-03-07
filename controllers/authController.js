@@ -61,7 +61,7 @@ exports.isLoggedIn = (req, res, next) => {
             service: 'Gmail',
             auth: {
                 user: 'vspillai681@gmail.com',
-                pass: 'vishnu@123' // 
+                pass: '123' // 
             }
         });
 
